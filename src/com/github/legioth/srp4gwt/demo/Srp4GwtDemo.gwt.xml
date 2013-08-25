@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- When updating your version of GWT, you should also update this DTD reference, 
+	so that your app can take advantage of the latest GWT module capabilities. -->
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.5.1//EN"
+  "http://google-web-toolkit.googlecode.com/svn/tags/2.5.1/distro-source/core/src/gwt-module.dtd">
+<module rename-to='srp4gwt'>
+	<!-- Inherit the core Web Toolkit stuff. -->
+	<inherits name='com.google.gwt.user.User' />
+
+	<!-- Inherit the default GWT style sheet. -->
+	<inherits name='com.google.gwt.user.theme.clean.Clean' />
+	
+	<!-- Other module inherits -->
+	<inherits name="com.github.legioth.srp4gwt.Srp4Gwt" />
+
+	<!-- Specify the app entry point class. -->
+	<entry-point class='com.github.legioth.srp4gwt.demo.client.Srp4Gwt' />
+
+	<!-- Specify the paths for translatable code -->
+	<source path='client' />
+
+	<set-property name="user.agent" value="gecko1_8,safari" />
+	
+	<collapse-all-properties/>
+
+</module>
