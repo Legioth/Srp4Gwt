@@ -1,3 +1,5 @@
+# Development has continued at https://github.com/kevzlou7979/Srp4Gwt. #
+
 Srp4Gwt
 =======
 
